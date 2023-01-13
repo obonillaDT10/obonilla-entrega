@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./deltapredio.jpg);
+    background-size: cover;
+}
+
+.description{
+    color: #fff;
+    width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.336);
+    border: 5px solid goldenrod; 
+    margin: 40px;
+    padding: 20px;
+    text-align: justify;
+    margin-right: 20%;
+    margin-top: 360px;
+}
+
+
+.titulo{
+    color: goldenrod;
+    margin-bottom: 20px;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+footer{
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-top: 30%;
+}
+
+footer i{
+    font-size: 0px;
+    letter-spacing: 10px;
+}
